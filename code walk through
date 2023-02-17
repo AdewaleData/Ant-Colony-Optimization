@@ -1,0 +1,21 @@
+ACO Code Explanation
+Now let's walk through the Python code for the ACO algorithm and explain each part:
+
+1 Define the problem function: This function takes as input the distances between the cities and a tour of the cities, and returns the total distance traveled. In this example, the problem is the Traveling Salesman Problem (TSP), where the goal is to find the shortest tour that visits each city exactly once and returns to the starting city.
+
+2 Define the ACO parameters: Here we define the number of ants, the maximum number of iterations, and the parameters that control the relative importance of the pheromone and heuristic information.
+
+3  Define the ACO function: This is the main function that implements the ACO algorithm.
+
+   a. Initialize the pheromone levels on the edges to a small constant value.
+
+   b. Repeat the following for a fixed number of iterations:
+   
+   
+4   Define the distances between cities: In this example, the distances are randomly generated.
+
+5   Run the ACO algorithm: Call the ACO function with the distances and ACO parameters, and print the best solution found.
+
+I hope this helps! Let me know if you have any further questions ? contact me through my profile details. 
+
+Thanks for reading.
